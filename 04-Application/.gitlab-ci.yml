@@ -17,8 +17,8 @@ build:
     - .tags
   variables:
     AWS_DEFAULT_REGION: eu-west-3
-    ECR: dkr.ecr.eu-west-3.amazonaws.com
-    REPO: <FIX_ME>/demo-k8s # replace FIX_ME with your name
+    ECR: dkr.ecr.eu-central-1.amazonaws.com
+    REPO: julien/demo-k8s # replace FIX_ME with your name
     TAG: latest
   script:
     - echo "Login to ECR ..."
