@@ -14,7 +14,7 @@ gitlab-runner:
         verbs: ["*"]
     clusterWideAccess: true
     serviceAccountAnnotations:
-      eks.amazonaws.com/role-arn: arn:aws:iam::334033969502:role/gitlab_runner_<FIX_ME>
+      eks.amazonaws.com/role-arn: arn:aws:iam::508657780480:role/gitlab_runner_julien
 
   runners:
     config: |
