@@ -1,6 +1,6 @@
 gitlab-runner:
-  gitlabUrl: https://gitlab.com
-  runnerRegistrationToken: FIX_ME # To update if you change the Gitlab group
+  gitlabUrl: https://gitlab-student.centralesupelec.fr/
+  runnerRegistrationToken: GR1348941gRGu2UJuGL4eFDDKoGB6 # To update if you change the Gitlab group
 
   terminationGracePeriodSeconds: 3600
   concurrent: 200

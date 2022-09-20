@@ -36,7 +36,7 @@ locals {
  	}
   }
 
-  #ecr_name = "${local.owner}/demo-k8s"
+  ecr_name = "${local.owner}/demo-k8s"
 }
 
 data "curl" "public_ip" {
